@@ -14,3 +14,8 @@
 ```shell
 django-admin startproject crud .
 ```
+
+- 앱 생성
+```shell
+django-admin startapp posts
+```
