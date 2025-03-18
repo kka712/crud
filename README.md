@@ -25,7 +25,7 @@ django-admin startapp posts
 - modeling(`models.py`)
 
 ```python
-class Post(modles.Model):
+class Post(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
 ```
