@@ -29,3 +29,14 @@ class Post(modles.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
 ```
+
+- migration
+```shell
+# 번역본 생성
+python manange.py makemigrations
+```
+
+```shell
+# DB에 반영
+python manage.py migrate
+```
