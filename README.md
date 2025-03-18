@@ -19,3 +19,13 @@ django-admin startproject crud .
 ```shell
 django-admin startapp posts
 ```
+
+## 2. CRUD
+
+- modeling(`models.py`)
+
+```python
+class Post(modles.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+```
